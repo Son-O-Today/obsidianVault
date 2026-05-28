@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import re
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -88,6 +89,22 @@ def main() -> int:
 
     path.write_text(content, encoding='utf-8')
     print(path)
+
+    sync_script = VAULT / 'scripts' / 'sync_vault_git.py'
+    sync = subprocess.run(
+        ['/usr/bin/python3', str(sync_script)],
+        cwd=VAULT,
+        text=True,
+        capture_output=True,
+    )
+    if sync.returncode != 0:
+        combined = (sync.stdout or '') + (sync.stderr or '')
+        raise SystemExit(combined.strip() or 'vault sync failed')
+
+    if sync.stdout:
+        print(sync.stdout.strip())
+    if sync.stderr:
+        print(sync.stderr.strip())
     return 0
 
 
