@@ -7,7 +7,7 @@ tags: [obsidian, setup]
 
 # Obsidian setup
 
-- Vault path: `/root/Documents/Obsidian Vault`
+- Vault path: `/root/Documents/obsidianVault`
 - Structure is Git-friendly and automation-ready
 - Future incoming notes should land in `00-Inbox/`
 

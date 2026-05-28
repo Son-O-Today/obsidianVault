@@ -18,7 +18,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-VAULT = Path('/root/Documents/Obsidian Vault')
+VAULT = Path('/root/Documents/obsidianVault')
 INBOX = VAULT / '00-Inbox'
 MAX_TITLE_LEN = 80
 
