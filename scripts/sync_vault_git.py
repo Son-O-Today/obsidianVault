@@ -19,7 +19,7 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-VAULT = Path('/root/Documents/obsidianVault')
+VAULT = Path(__file__).resolve().parents[1]
 
 
 def run(cmd: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:

@@ -15,6 +15,11 @@ This vault is organized for both manual note-taking and future automation.
 ## Automation convention
 Use YAML frontmatter for all machine-written notes when possible:
 
+For automation and sync, this vault assumes:
+- the server writes new Markdown files directly into the vault
+- Git is used only for sync between server and local copies
+- local Obsidian opens the synced vault folder, not a separate export
+
 ```yaml
 ---
 title: Example note
