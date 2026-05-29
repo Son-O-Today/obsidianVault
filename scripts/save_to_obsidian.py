@@ -105,6 +105,22 @@ def main() -> int:
         print(sync.stdout.strip())
     if sync.stderr:
         print(sync.stderr.strip())
+
+    notify_script = VAULT / 'scripts' / 'notify_local_pull.py'
+    notify = subprocess.run(
+        ['/usr/bin/python3', str(notify_script)],
+        cwd=VAULT,
+        text=True,
+        capture_output=True,
+    )
+    if notify.returncode != 0:
+        combined = (notify.stdout or '') + (notify.stderr or '')
+        raise SystemExit(combined.strip() or 'local pull notify failed')
+
+    if notify.stdout:
+        print(notify.stdout.strip())
+    if notify.stderr:
+        print(notify.stderr.strip())
     return 0
 
 
