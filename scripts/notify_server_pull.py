@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Optionally trigger a pull on a local Obsidian machine over SSH."""
+"""Optionally trigger a pull on the server-side Obsidian vault over SSH."""
 from __future__ import annotations
 
 import os
@@ -8,14 +8,14 @@ import subprocess
 
 
 def main() -> int:
-    host = os.environ.get('OBSIDIAN_LOCAL_SSH_HOST', '').strip()
-    user = os.environ.get('OBSIDIAN_LOCAL_SSH_USER', '').strip()
-    vault_path = os.environ.get('OBSIDIAN_LOCAL_VAULT_PATH', '').strip()
-    port = os.environ.get('OBSIDIAN_LOCAL_SSH_PORT', '22').strip() or '22'
-    identity = os.environ.get('OBSIDIAN_LOCAL_SSH_KEY', '').strip()
+    host = os.environ.get('OBSIDIAN_SERVER_SSH_HOST', '').strip()
+    user = os.environ.get('OBSIDIAN_SERVER_SSH_USER', '').strip()
+    vault_path = os.environ.get('OBSIDIAN_SERVER_VAULT_PATH', '').strip()
+    port = os.environ.get('OBSIDIAN_SERVER_SSH_PORT', '22').strip() or '22'
+    identity = os.environ.get('OBSIDIAN_SERVER_SSH_KEY', '').strip()
 
     if not host or not user or not vault_path:
-        print('Local SSH pull not configured; skipping')
+        print('Server SSH pull not configured; skipping')
         return 0
 
     remote_cmd = (
@@ -32,7 +32,7 @@ def main() -> int:
         stderr = (proc.stderr or '').strip()
         stdout = (proc.stdout or '').strip()
         detail = stderr or stdout or f'exit code {proc.returncode}'
-        print(f'Warning: local SSH pull trigger failed: {detail}')
+        print(f'Warning: server SSH pull trigger failed: {detail}')
         return 0
 
     if proc.stdout:

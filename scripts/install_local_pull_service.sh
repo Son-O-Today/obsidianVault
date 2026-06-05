@@ -18,6 +18,7 @@ After=network-online.target
 [Service]
 Type=oneshot
 WorkingDirectory=$VAULT_PATH
+Environment=OBSIDIAN_VAULT_PATH=$VAULT_PATH
 ExecStart=/usr/bin/python3 $VAULT_PATH/scripts/pull_vault_git.py
 
 [Install]

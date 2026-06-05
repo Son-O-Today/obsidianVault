@@ -5,3 +5,4 @@
 Thumbs.db
 *.tmp
 *.swp
+__pycache__/

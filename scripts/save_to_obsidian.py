@@ -1,25 +1,17 @@
 #!/usr/bin/env python3
-"""Append a captured note into the Obsidian vault inbox.
-
-Usage:
-  python3 save_to_obsidian.py --title "..." --body "..." --source telegram
-
-This script is intentionally automation-friendly:
-- writes only Markdown
-- adds YAML frontmatter
-- avoids overwriting existing notes
-- supports stable IDs for future deduplication
-"""
+"""Append a captured note into the Obsidian vault inbox."""
 from __future__ import annotations
 
 import argparse
 import hashlib
+import os
 import re
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-VAULT = Path('/root/Documents/obsidianVault')
+DEFAULT_VAULT = '/root/Documents/obsidianVault'
+VAULT = Path(os.environ.get('OBSIDIAN_VAULT_PATH', DEFAULT_VAULT))
 INBOX = VAULT / '00-Inbox'
 MAX_TITLE_LEN = 80
 
@@ -54,6 +46,23 @@ def unique_path(path: Path) -> Path:
     raise SystemExit(f'could not find unique filename for {path}')
 
 
+def run_vault_script(script_name: str, failure_message: str) -> None:
+    script = VAULT / 'scripts' / script_name
+    proc = subprocess.run(
+        ['/usr/bin/python3', str(script)],
+        cwd=VAULT,
+        text=True,
+        capture_output=True,
+    )
+    if proc.returncode != 0:
+        combined = (proc.stdout or '') + (proc.stderr or '')
+        raise SystemExit(combined.strip() or failure_message)
+    if proc.stdout:
+        print(proc.stdout.strip())
+    if proc.stderr:
+        print(proc.stderr.strip())
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument('--title', required=True)
@@ -63,12 +72,14 @@ def main() -> int:
     parser.add_argument('--tags', default='inbox')
     args = parser.parse_args()
 
+    run_vault_script('pull_vault_git.py', 'vault pull failed')
+
     INBOX.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc)
     stamp = now.strftime('%Y-%m-%d %H%M')
     title = truncate_title(args.title)
     file_title = slugify(title)
-    filename = f"{stamp} - {file_title}.md"
+    filename = f'{stamp} - {file_title}.md'
     path = unique_path(INBOX / filename)
     note_id = stable_id(args.source, title, args.body)
     tags = ', '.join(t.strip() for t in args.tags.split(',') if t.strip()) or 'inbox'
@@ -80,47 +91,19 @@ def main() -> int:
         f'created: {now.isoformat().replace("+00:00", "Z")}\n'
         f'source: {args.source}\n'
         f'kind: {args.kind}\n'
+        'status: inbox\n'
         f'tags: [{tags}]\n'
         '---\n\n'
         f'# {title}\n\n'
-        '## Raw\n'
+        '## Raw\n\n'
         f'{args.body}\n'
     )
 
     path.write_text(content, encoding='utf-8')
     print(path)
 
-    sync_script = VAULT / 'scripts' / 'sync_vault_git.py'
-    sync = subprocess.run(
-        ['/usr/bin/python3', str(sync_script)],
-        cwd=VAULT,
-        text=True,
-        capture_output=True,
-    )
-    if sync.returncode != 0:
-        combined = (sync.stdout or '') + (sync.stderr or '')
-        raise SystemExit(combined.strip() or 'vault sync failed')
-
-    if sync.stdout:
-        print(sync.stdout.strip())
-    if sync.stderr:
-        print(sync.stderr.strip())
-
-    notify_script = VAULT / 'scripts' / 'notify_local_pull.py'
-    notify = subprocess.run(
-        ['/usr/bin/python3', str(notify_script)],
-        cwd=VAULT,
-        text=True,
-        capture_output=True,
-    )
-    if notify.returncode != 0:
-        combined = (notify.stdout or '') + (notify.stderr or '')
-        raise SystemExit(combined.strip() or 'local pull notify failed')
-
-    if notify.stdout:
-        print(notify.stdout.strip())
-    if notify.stderr:
-        print(notify.stderr.strip())
+    run_vault_script('sync_vault_git.py', 'vault sync failed')
+    run_vault_script('notify_local_pull.py', 'local pull notify failed')
     return 0
 
 

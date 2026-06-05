@@ -1,24 +1,51 @@
-# Automation contract
+# Automation Contract
 
-This folder documents how future scripts or webhooks should write into the vault.
+This vault is designed for bidirectional server/local Git sync and LLM-maintained
+knowledge compilation.
 
-## Recommended flow
-1. Write new items into `00-Inbox/` first.
-2. Include YAML frontmatter with `source`, `created`, and `kind`.
-3. Use a filename format like `YYYY-MM-DD HHmm - short-title.md` or a slug if the title is stable.
-4. Link to related notes with `[[wikilinks]]` when known.
-5. Move mature notes into `02-Notes/` or `03-References/`.
+## Server Capture
 
-## Suggested metadata fields
-- `title`
-- `created`
-- `source`
-- `kind`
-- `tags`
-- `id` (optional stable identifier)
-- `url` (if captured from the web)
+Server-side agents should use:
 
-## Safety rules
-- Never overwrite a note silently if it already exists; append or create a new version.
-- Keep raw captures separate from curated notes.
-- Preserve original text when possible.
+```bash
+python3 scripts/save_to_obsidian.py --title "..." --body "..." --source telegram
+```
+
+Flow:
+
+```text
+pull latest -> create note in 00-Inbox -> commit/push -> notify local pull
+```
+
+## Local Sync
+
+Local Obsidian edits should use:
+
+```bash
+scripts/obsidian save
+```
+
+or:
+
+```bash
+scripts/옵시디언 저장
+```
+
+Flow:
+
+```text
+pull latest -> commit/push -> notify server pull
+```
+
+## Knowledge Compilation
+
+Agents should treat the vault as layered memory:
+
+- `00-Inbox/`: unprocessed capture
+- `01-Raw/`: source of truth
+- `03-Wiki/`: compiled knowledge
+- `04-MOCs/`: navigation
+- `05-Graphs/`: graph reports
+
+Do not overwrite existing notes silently. Create unique filenames or merge
+carefully with clear source attribution.

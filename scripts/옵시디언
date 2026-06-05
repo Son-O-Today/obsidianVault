@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+case "${1:-}" in
+  저장|동기화)
+    shift
+    exec /usr/bin/python3 "$SCRIPT_DIR/sync_local_to_server.py" "$@"
+    ;;
+  *)
+    echo "usage: 옵시디언 저장 [--message MESSAGE]" >&2
+    echo "       옵시디언 동기화 [--message MESSAGE]" >&2
+    exit 2
+    ;;
+esac

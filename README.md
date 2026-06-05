@@ -1,33 +1,81 @@
 # Obsidian Vault
 
-This vault is organized for both manual note-taking and future automation.
+This vault uses a compiled-knowledge layout for personal notes, team knowledge,
+and AI-agent operations.
 
 ## Structure
-- `00-Inbox/` — quick capture area for incoming notes and webhook drops
-- `01-Daily/` — daily logs
-- `02-Notes/` — evergreen notes and working notes
-- `03-References/` — reference material and source notes
-- `Attachments/` — images and files
-- `Templates/` — reusable note templates
-- `Automation/` — rules and contracts for incoming automated notes
-- `90-Archive/` — inactive notes
 
-## Automation convention
-Use YAML frontmatter for all machine-written notes when possible:
+- `00-Inbox/` - quick capture and unprocessed automated notes
+- `01-Raw/` - immutable source material: web clips, transcripts, PDFs, exports
+- `02-Notes/` - human-authored working and evergreen notes
+- `03-Wiki/` - LLM-maintained compiled wiki pages
+- `04-MOCs/` - Maps of Content and topic entry points
+- `05-Graphs/` - Graphify outputs and graph analysis reports
+- `Automation/` - sync contracts, agent protocols, and operating rules
+- `Templates/` - reusable Obsidian note templates
+- `scripts/` - local/server sync and capture commands
+- `90-Archive/` - inactive or superseded notes
 
-For automation and sync, this vault assumes:
-- the server writes new Markdown files directly into the vault
-- Git is used only for sync between server and local copies
-- local Obsidian opens the synced vault folder, not a separate export
+## Sync Commands
 
-```yaml
----
-title: Example note
-created: 2026-05-27T12:00:00Z
-source: telegram
-kind: capture
-tags: [inbox]
----
+Local Obsidian edits:
+
+```bash
+scripts/obsidian save
+scripts/옵시디언 저장
 ```
 
-Prefer one note per atomic idea or event. Keep filenames stable and human-readable.
+Equivalent direct command:
+
+```bash
+python3 scripts/sync_local_to_server.py
+```
+
+Server-side capture:
+
+```bash
+python3 scripts/save_to_obsidian.py --title "Title" --body "Body" --source telegram
+```
+
+## Bidirectional Flow
+
+Server captures:
+
+```text
+server pull latest -> write to 00-Inbox -> commit/push -> notify local pull
+```
+
+Local edits:
+
+```text
+local pull latest -> commit/push -> notify server pull
+```
+
+## Environment
+
+Set `OBSIDIAN_VAULT_PATH` when the vault path is not the script default.
+
+Local machine notifying the server:
+
+- `OBSIDIAN_SERVER_SSH_HOST`
+- `OBSIDIAN_SERVER_SSH_USER`
+- `OBSIDIAN_SERVER_SSH_PORT` optional, defaults to `22`
+- `OBSIDIAN_SERVER_VAULT_PATH`
+- `OBSIDIAN_SERVER_SSH_KEY` optional
+
+Server notifying the local machine:
+
+- `OBSIDIAN_LOCAL_SSH_HOST`
+- `OBSIDIAN_LOCAL_SSH_USER`
+- `OBSIDIAN_LOCAL_SSH_PORT` optional, defaults to `22`
+- `OBSIDIAN_LOCAL_VAULT_PATH`
+- `OBSIDIAN_LOCAL_SSH_KEY` optional
+
+## Knowledge Workflow
+
+Use `00-Inbox` for unprocessed captures, promote durable sources into `01-Raw`,
+compile durable knowledge into `03-Wiki`, and create topic navigation in
+`04-MOCs`. Graphify or similar tools should write reports into `05-Graphs`.
+
+Raw sources should not be silently modified by agents. LLM-maintained wiki pages
+must preserve source attribution and use wikilinks for cross-references.

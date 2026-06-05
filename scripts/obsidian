@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+case "${1:-}" in
+  save|sync)
+    shift
+    exec /usr/bin/python3 "$SCRIPT_DIR/sync_local_to_server.py" "$@"
+    ;;
+  *)
+    echo "usage: obsidian save [--message MESSAGE]" >&2
+    echo "       obsidian sync [--message MESSAGE]" >&2
+    exit 2
+    ;;
+esac

@@ -1,35 +1,18 @@
 #!/usr/bin/env python3
-"""Stage, commit, and push the Obsidian vault.
-
-This script is intentionally conservative:
-- exits quietly if there are no changes
-- stages all vault changes
-- creates one commit only when there is something to commit
-- pushes the current branch to its tracked remote
-
-Usage:
-  python3 scripts/sync_vault_git.py
-  python3 scripts/sync_vault_git.py --message "obsidian: sync"
-  python3 scripts/sync_vault_git.py --dry-run
-"""
+"""Stage, commit, and push the Obsidian vault."""
 from __future__ import annotations
 
 import argparse
+import os
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-VAULT = Path(__file__).resolve().parents[1]
+VAULT = Path(os.environ.get('OBSIDIAN_VAULT_PATH', Path(__file__).resolve().parents[1]))
 
 
 def run(cmd: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(
-        cmd,
-        cwd=VAULT,
-        text=True,
-        capture_output=True,
-        check=check,
-    )
+    return subprocess.run(cmd, cwd=VAULT, text=True, capture_output=True, check=check)
 
 
 def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -58,7 +41,6 @@ def main() -> int:
         return 0
 
     git('add', '-A')
-
     staged = git('diff', '--cached', '--name-only').stdout.strip()
     if not staged:
         print('No staged changes after add')
