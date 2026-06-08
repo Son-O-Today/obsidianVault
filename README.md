@@ -10,7 +10,7 @@ and AI-agent operations.
 - `02-Notes/` - human-authored working and evergreen notes
 - `03-Wiki/` - LLM-maintained compiled wiki pages
 - `04-MOCs/` - Maps of Content and topic entry points
-- `05-Graphs/` - Graphify outputs and graph analysis reports
+- `05-Graphs/` - reviewed Graphify reports and graph snapshots
 - `Automation/` - sync contracts, agent protocols, and operating rules
 - `Templates/` - reusable Obsidian note templates
 - `scripts/` - local/server sync and capture commands
@@ -75,7 +75,13 @@ Server notifying the local machine:
 
 Use `00-Inbox` for unprocessed captures, promote durable sources into `01-Raw`,
 compile durable knowledge into `03-Wiki`, and create topic navigation in
-`04-MOCs`. Graphify or similar tools should write reports into `05-Graphs`.
+`04-MOCs`.
+
+Graphify uses `graphify-out/` as its live query index. Reviewed graph artifacts
+should be mirrored into `05-Graphs/` as snapshots. The default graph corpus should
+focus on `03-Wiki`, `04-MOCs`, `Automation`, `Templates`, `scripts`, and root
+operating docs; exclude inbox captures, raw sources, human working notes, agent
+skill files, and previous graph outputs.
 
 Raw sources should not be silently modified by agents. LLM-maintained wiki pages
 must preserve source attribution and use wikilinks for cross-references.

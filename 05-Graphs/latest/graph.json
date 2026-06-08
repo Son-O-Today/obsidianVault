@@ -1,0 +1,2748 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "install_local_pull_service.sh",
+      "file_type": "code",
+      "source_file": "scripts/install_local_pull_service.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 15,
+      "norm_label": "install_local_pull_service.sh",
+      "id": "scripts_install_local_pull_service"
+    },
+    {
+      "label": "install_local_pull_service.sh script",
+      "file_type": "code",
+      "source_file": "scripts/install_local_pull_service.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 15,
+      "norm_label": "install_local_pull_service.sh script",
+      "id": "users_che60_auser_obsidianvault_scripts_install_local_pull_service_sh__entry"
+    },
+    {
+      "label": "notify_local_pull.py",
+      "file_type": "code",
+      "source_file": "scripts/notify_local_pull.py",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "notify_local_pull.py",
+      "id": "scripts_notify_local_pull"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/notify_local_pull.py",
+      "source_location": "L10",
+      "community": 16,
+      "norm_label": "main()",
+      "id": "scripts_notify_local_pull_main"
+    },
+    {
+      "label": "notify_server_pull.py",
+      "file_type": "code",
+      "source_file": "scripts/notify_server_pull.py",
+      "source_location": "L1",
+      "community": 17,
+      "norm_label": "notify_server_pull.py",
+      "id": "scripts_notify_server_pull"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/notify_server_pull.py",
+      "source_location": "L10",
+      "community": 17,
+      "norm_label": "main()",
+      "id": "scripts_notify_server_pull_main"
+    },
+    {
+      "label": "pull_vault_git.py",
+      "file_type": "code",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "pull_vault_git.py",
+      "id": "scripts_pull_vault_git"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L13",
+      "community": 9,
+      "norm_label": "run()",
+      "id": "scripts_pull_vault_git_run"
+    },
+    {
+      "label": "CompletedProcess",
+      "file_type": "code",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L13",
+      "community": 9,
+      "norm_label": "completedprocess",
+      "id": "scripts_pull_vault_git_py_completedprocess"
+    },
+    {
+      "label": "git()",
+      "file_type": "code",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L17",
+      "community": 9,
+      "norm_label": "git()",
+      "id": "scripts_pull_vault_git_git"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L21",
+      "community": 9,
+      "norm_label": "main()",
+      "id": "scripts_pull_vault_git_main"
+    },
+    {
+      "label": "save_to_obsidian.py",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "save_to_obsidian.py",
+      "id": "scripts_save_to_obsidian"
+    },
+    {
+      "label": "slugify()",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L19",
+      "community": 4,
+      "norm_label": "slugify()",
+      "id": "scripts_save_to_obsidian_slugify"
+    },
+    {
+      "label": "truncate_title()",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L26",
+      "community": 4,
+      "norm_label": "truncate_title()",
+      "id": "scripts_save_to_obsidian_truncate_title"
+    },
+    {
+      "label": "stable_id()",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L31",
+      "community": 4,
+      "norm_label": "stable_id()",
+      "id": "scripts_save_to_obsidian_stable_id"
+    },
+    {
+      "label": "unique_path()",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L36",
+      "community": 4,
+      "norm_label": "unique_path()",
+      "id": "scripts_save_to_obsidian_unique_path"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L36",
+      "community": 4,
+      "norm_label": "path",
+      "id": "path"
+    },
+    {
+      "label": "run_vault_script()",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L49",
+      "community": 4,
+      "norm_label": "run_vault_script()",
+      "id": "scripts_save_to_obsidian_run_vault_script"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L66",
+      "community": 4,
+      "norm_label": "main()",
+      "id": "scripts_save_to_obsidian_main"
+    },
+    {
+      "label": "sync_local_to_server.py",
+      "file_type": "code",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "sync_local_to_server.py",
+      "id": "scripts_sync_local_to_server"
+    },
+    {
+      "label": "run_script()",
+      "file_type": "code",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L14",
+      "community": 7,
+      "norm_label": "run_script()",
+      "id": "scripts_sync_local_to_server_run_script"
+    },
+    {
+      "label": "CompletedProcess",
+      "file_type": "code",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L14",
+      "community": 7,
+      "norm_label": "completedprocess",
+      "id": "scripts_sync_local_to_server_py_completedprocess"
+    },
+    {
+      "label": "print_output()",
+      "file_type": "code",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L23",
+      "community": 7,
+      "norm_label": "print_output()",
+      "id": "scripts_sync_local_to_server_print_output"
+    },
+    {
+      "label": "require_success()",
+      "file_type": "code",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L30",
+      "community": 7,
+      "norm_label": "require_success()",
+      "id": "scripts_sync_local_to_server_require_success"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L37",
+      "community": 7,
+      "norm_label": "main()",
+      "id": "scripts_sync_local_to_server_main"
+    },
+    {
+      "label": "sync_vault_git.py",
+      "file_type": "code",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "sync_vault_git.py",
+      "id": "scripts_sync_vault_git"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L14",
+      "community": 10,
+      "norm_label": "run()",
+      "id": "scripts_sync_vault_git_run"
+    },
+    {
+      "label": "CompletedProcess",
+      "file_type": "code",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L14",
+      "community": 10,
+      "norm_label": "completedprocess",
+      "id": "scripts_sync_vault_git_py_completedprocess"
+    },
+    {
+      "label": "git()",
+      "file_type": "code",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L18",
+      "community": 10,
+      "norm_label": "git()",
+      "id": "scripts_sync_vault_git_git"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L22",
+      "community": 10,
+      "norm_label": "main()",
+      "id": "scripts_sync_vault_git_main"
+    },
+    {
+      "label": "\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "\u1100\u1162\u110b\u1175\u11ab\u1100\u116a \u1110\u1175\u11b7\u110b\u1174 \u110c\u1175\u1109\u1175\u11a8 \u1100\u116a\u11ab\u1105\u1175.md",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "label": "\uac1c\uc778 \uc9c0\uc2dd \uad00\ub9ac",
+      "file_type": "document",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L15",
+      "community": 6,
+      "norm_label": "\u1100\u1162\u110b\u1175\u11ab \u110c\u1175\u1109\u1175\u11a8 \u1100\u116a\u11ab\u1105\u1175",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uac1c\uc778_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "label": "\ud300 \uc9c0\uc2dd \uad00\ub9ac",
+      "file_type": "document",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L21",
+      "community": 6,
+      "norm_label": "\u1110\u1175\u11b7 \u110c\u1175\u1109\u1175\u11a8 \u1100\u116a\u11ab\u1105\u1175",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\ud300_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "label": "\uae30\ub300 \uacb0\uacfc",
+      "file_type": "document",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L26",
+      "community": 6,
+      "norm_label": "\u1100\u1175\u1103\u1162 \u1100\u1167\u11af\u1100\u116a",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uae30\ub300_\uacb0\uacfc"
+    },
+    {
+      "label": "\uacf5\ud1b5 \uc704\ud5d8",
+      "file_type": "document",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L34",
+      "community": 6,
+      "norm_label": "\u1100\u1169\u11bc\u1110\u1169\u11bc \u110b\u1171\u1112\u1165\u11b7",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uacf5\ud1b5_\uc704\ud5d8"
+    },
+    {
+      "label": "\uad00\ub828",
+      "file_type": "document",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L43",
+      "community": 6,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1167\u11ab",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uad00\ub828"
+    },
+    {
+      "label": "LLM Wiki.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "llm wiki.md",
+      "id": "concepts_llm_wiki"
+    },
+    {
+      "label": "\uc815\uc758",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L15",
+      "community": 3,
+      "norm_label": "\u110c\u1165\u11bc\u110b\u1174",
+      "id": "concepts_llm_wiki_\uc815\uc758"
+    },
+    {
+      "label": "\ud575\uc2ec \uacc4\uce35",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L20",
+      "community": 3,
+      "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1168\u110e\u1173\u11bc",
+      "id": "concepts_llm_wiki_\ud575\uc2ec_\uacc4\uce35"
+    },
+    {
+      "label": "\uc6b4\uc601 \ub8e8\ud504",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L26",
+      "community": 3,
+      "norm_label": "\u110b\u116e\u11ab\u110b\u1167\u11bc \u1105\u116e\u1111\u1173",
+      "id": "concepts_llm_wiki_\uc6b4\uc601_\ub8e8\ud504"
+    },
+    {
+      "label": "RAG\uc640\uc758 \uad00\uacc4",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L34",
+      "community": 3,
+      "norm_label": "rag\u110b\u116a\u110b\u1174 \u1100\u116a\u11ab\u1100\u1168",
+      "id": "concepts_llm_wiki_rag\uc640\uc758_\uad00\uacc4"
+    },
+    {
+      "label": "\uad00\ub828",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L40",
+      "community": 3,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1167\u11ab",
+      "id": "concepts_llm_wiki_\uad00\ub828"
+    },
+    {
+      "label": "\ucd9c\ucc98",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L48",
+      "community": 3,
+      "norm_label": "\u110e\u116e\u11af\u110e\u1165",
+      "id": "concepts_llm_wiki_\ucd9c\ucc98"
+    },
+    {
+      "label": "\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "\u110c\u1175\u1109\u1175\u11a8 \u110f\u1165\u11b7\u1111\u1161\u110b\u1175\u11af.md",
+      "id": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c"
+    },
+    {
+      "label": "\uc815\uc758",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L15",
+      "community": 1,
+      "norm_label": "\u110c\u1165\u11bc\u110b\u1174",
+      "id": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\uc815\uc758"
+    },
+    {
+      "label": "\uc785\ub825\uacfc \ucd9c\ub825",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L20",
+      "community": 1,
+      "norm_label": "\u110b\u1175\u11b8\u1105\u1167\u11a8\u1100\u116a \u110e\u116e\u11af\u1105\u1167\u11a8",
+      "id": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\uc785\ub825\uacfc_\ucd9c\ub825"
+    },
+    {
+      "label": "\ucef4\ud30c\uc77c \uc6d0\uce59",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L30",
+      "community": 1,
+      "norm_label": "\u110f\u1165\u11b7\u1111\u1161\u110b\u1175\u11af \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\ucef4\ud30c\uc77c_\uc6d0\uce59"
+    },
+    {
+      "label": "\ud488\uc9c8 \uae30\uc900",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L39",
+      "community": 1,
+      "norm_label": "\u1111\u116e\u11b7\u110c\u1175\u11af \u1100\u1175\u110c\u116e\u11ab",
+      "id": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\ud488\uc9c8_\uae30\uc900"
+    },
+    {
+      "label": "\uad00\ub828",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L46",
+      "community": 1,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1167\u11ab",
+      "id": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\uad00\ub828"
+    },
+    {
+      "label": "AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "ai \u110b\u1166\u110b\u1175\u110c\u1165\u11ab\u1110\u1173 \u110c\u1175\u1109\u1175\u11a8 \u110b\u116e\u11ab\u110b\u1167\u11bc.md",
+      "id": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601"
+    },
+    {
+      "label": "\ubaa9\ud45c",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L15",
+      "community": 1,
+      "norm_label": "\u1106\u1169\u11a8\u1111\u116d",
+      "id": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\ubaa9\ud45c"
+    },
+    {
+      "label": "\uc800\uc7a5\ud560 \uc9c0\uc2dd",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L20",
+      "community": 1,
+      "norm_label": "\u110c\u1165\u110c\u1161\u11bc\u1112\u1161\u11af \u110c\u1175\u1109\u1175\u11a8",
+      "id": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\uc800\uc7a5\ud560_\uc9c0\uc2dd"
+    },
+    {
+      "label": "\ucc98\ub9ac \ud750\ub984",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L28",
+      "community": 1,
+      "norm_label": "\u110e\u1165\u1105\u1175 \u1112\u1173\u1105\u1173\u11b7",
+      "id": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\ucc98\ub9ac_\ud750\ub984"
+    },
+    {
+      "label": "\uc6b4\uc601 \ud1b5\uc81c",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L36",
+      "community": 1,
+      "norm_label": "\u110b\u116e\u11ab\u110b\u1167\u11bc \u1110\u1169\u11bc\u110c\u1166",
+      "id": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\uc6b4\uc601_\ud1b5\uc81c"
+    },
+    {
+      "label": "\uad00\ub828",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L43",
+      "community": 1,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1167\u11ab",
+      "id": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\uad00\ub828"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/README.md",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "readme.md",
+      "id": "03_wiki_readme"
+    },
+    {
+      "label": "03-Wiki",
+      "file_type": "document",
+      "source_file": "03-Wiki/README.md",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "03-wiki",
+      "id": "03_wiki_readme_03_wiki"
+    },
+    {
+      "label": "Graphify.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "graphify.md",
+      "id": "tools_graphify"
+    },
+    {
+      "label": "\uc815\uc758",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L15",
+      "community": 0,
+      "norm_label": "\u110c\u1165\u11bc\u110b\u1174",
+      "id": "tools_graphify_\uc815\uc758"
+    },
+    {
+      "label": "Obsidian\uacfc\uc758 \uc5ed\ud560 \ubd84\ub2f4",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L21",
+      "community": 0,
+      "norm_label": "obsidian\u1100\u116a\u110b\u1174 \u110b\u1167\u11a8\u1112\u1161\u11af \u1107\u116e\u11ab\u1103\u1161\u11b7",
+      "id": "tools_graphify_obsidian\uacfc\uc758_\uc5ed\ud560_\ubd84\ub2f4"
+    },
+    {
+      "label": "\uc8fc\uc694 \uacb0\uacfc",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L27",
+      "community": 0,
+      "norm_label": "\u110c\u116e\u110b\u116d \u1100\u1167\u11af\u1100\u116a",
+      "id": "tools_graphify_\uc8fc\uc694_\uacb0\uacfc"
+    },
+    {
+      "label": "\uc2e0\ub8b0 \uc218\uc900",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L33",
+      "community": 0,
+      "norm_label": "\u1109\u1175\u11ab\u1105\u116c \u1109\u116e\u110c\u116e\u11ab",
+      "id": "tools_graphify_\uc2e0\ub8b0_\uc218\uc900"
+    },
+    {
+      "label": "\uc801\uc6a9 \ubc94\uc704",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L41",
+      "community": 0,
+      "norm_label": "\u110c\u1165\u11a8\u110b\u116d\u11bc \u1107\u1165\u11b7\u110b\u1171",
+      "id": "tools_graphify_\uc801\uc6a9_\ubc94\uc704"
+    },
+    {
+      "label": "\uad00\ub828",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L46",
+      "community": 0,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1167\u11ab",
+      "id": "tools_graphify_\uad00\ub828"
+    },
+    {
+      "label": "\ucd9c\ucc98",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L53",
+      "community": 0,
+      "norm_label": "\u110e\u116e\u11af\u110e\u1165",
+      "id": "tools_graphify_\ucd9c\ucc98"
+    },
+    {
+      "label": "Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "obsidian \u110c\u1175\u1109\u1175\u11a8 \u110b\u1175\u11ab\u1110\u1165\u1111\u1166\u110b\u1175\u1109\u1173.md",
+      "id": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "label": "\uc5ed\ud560",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L15",
+      "community": 1,
+      "norm_label": "\u110b\u1167\u11a8\u1112\u1161\u11af",
+      "id": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uc5ed\ud560"
+    },
+    {
+      "label": "\uc8fc\uc694 \uae30\ub2a5",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L21",
+      "community": 1,
+      "norm_label": "\u110c\u116e\u110b\u116d \u1100\u1175\u1102\u1173\u11bc",
+      "id": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uc8fc\uc694_\uae30\ub2a5"
+    },
+    {
+      "label": "\uc774 Vault\uc5d0\uc11c\uc758 \uc5ed\ud560",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L29",
+      "community": 1,
+      "norm_label": "\u110b\u1175 vault\u110b\u1166\u1109\u1165\u110b\u1174 \u110b\u1167\u11a8\u1112\u1161\u11af",
+      "id": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uc774_vault\uc5d0\uc11c\uc758_\uc5ed\ud560"
+    },
+    {
+      "label": "\ud55c\uacc4",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L37",
+      "community": 1,
+      "norm_label": "\u1112\u1161\u11ab\u1100\u1168",
+      "id": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\ud55c\uacc4"
+    },
+    {
+      "label": "\uad00\ub828",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L42",
+      "community": 1,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1167\u11ab",
+      "id": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uad00\ub828"
+    },
+    {
+      "label": "LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "file_type": "document",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "llm wiki\u110b\u116a \u110b\u1166\u110b\u1175\u110c\u1165\u11ab\u1110\u1173 \u110c\u1175\u1109\u1175\u11a8 \u1100\u116a\u11ab\u1105\u1175 moc.md",
+      "id": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc"
+    },
+    {
+      "label": "\uc2dc\uc791\uc810",
+      "file_type": "document",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L12",
+      "community": 2,
+      "norm_label": "\u1109\u1175\u110c\u1161\u11a8\u110c\u1165\u11b7",
+      "id": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc2dc\uc791\uc810"
+    },
+    {
+      "label": "\ub3c4\uad6c",
+      "file_type": "document",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L17",
+      "community": 2,
+      "norm_label": "\u1103\u1169\u1100\u116e",
+      "id": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\ub3c4\uad6c"
+    },
+    {
+      "label": "\uc801\uc6a9",
+      "file_type": "document",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L22",
+      "community": 2,
+      "norm_label": "\u110c\u1165\u11a8\u110b\u116d\u11bc",
+      "id": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc801\uc6a9"
+    },
+    {
+      "label": "\uc6d0\ubcf8",
+      "file_type": "document",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L27",
+      "community": 2,
+      "norm_label": "\u110b\u116f\u11ab\u1107\u1169\u11ab",
+      "id": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc6d0\ubcf8"
+    },
+    {
+      "label": "\uc5f4\ub9b0 \uc9c8\ubb38",
+      "file_type": "document",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L31",
+      "community": 2,
+      "norm_label": "\u110b\u1167\u11af\u1105\u1175\u11ab \u110c\u1175\u11af\u1106\u116e\u11ab",
+      "id": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc5f4\ub9b0_\uc9c8\ubb38"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "04-MOCs/README.md",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "readme.md",
+      "id": "04_mocs_readme"
+    },
+    {
+      "label": "04-MOCs",
+      "file_type": "document",
+      "source_file": "04-MOCs/README.md",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "04-mocs",
+      "id": "04_mocs_readme_04_mocs"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "agents.md",
+      "id": "agents"
+    },
+    {
+      "label": "Vault Agent Protocol",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "vault agent protocol",
+      "id": "agents_vault_agent_protocol"
+    },
+    {
+      "label": "Folder Ownership",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L6",
+      "community": 5,
+      "norm_label": "folder ownership",
+      "id": "agents_folder_ownership"
+    },
+    {
+      "label": "Frontmatter",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L17",
+      "community": 5,
+      "norm_label": "frontmatter",
+      "id": "agents_frontmatter"
+    },
+    {
+      "label": "LLM Wiki Rules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L54",
+      "community": 5,
+      "norm_label": "llm wiki rules",
+      "id": "agents_llm_wiki_rules"
+    },
+    {
+      "label": "Sync Rules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L64",
+      "community": 5,
+      "norm_label": "sync rules",
+      "id": "agents_sync_rules"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "Automation/README.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "readme.md",
+      "id": "automation_readme"
+    },
+    {
+      "label": "Automation Contract",
+      "file_type": "document",
+      "source_file": "Automation/README.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "automation contract",
+      "id": "automation_readme_automation_contract"
+    },
+    {
+      "label": "Server Capture",
+      "file_type": "document",
+      "source_file": "Automation/README.md",
+      "source_location": "L6",
+      "community": 2,
+      "norm_label": "server capture",
+      "id": "automation_readme_server_capture"
+    },
+    {
+      "label": "Local Sync",
+      "file_type": "document",
+      "source_file": "Automation/README.md",
+      "source_location": "L20",
+      "community": 2,
+      "norm_label": "local sync",
+      "id": "automation_readme_local_sync"
+    },
+    {
+      "label": "Knowledge Compilation",
+      "file_type": "document",
+      "source_file": "Automation/README.md",
+      "source_location": "L40",
+      "community": 2,
+      "norm_label": "knowledge compilation",
+      "id": "automation_readme_knowledge_compilation"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "readme.md",
+      "id": "readme"
+    },
+    {
+      "label": "Obsidian Vault",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "obsidian vault",
+      "id": "readme_obsidian_vault"
+    },
+    {
+      "label": "Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "structure",
+      "id": "readme_structure"
+    },
+    {
+      "label": "Sync Commands",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "community": 0,
+      "norm_label": "sync commands",
+      "id": "readme_sync_commands"
+    },
+    {
+      "label": "Bidirectional Flow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "community": 0,
+      "norm_label": "bidirectional flow",
+      "id": "readme_bidirectional_flow"
+    },
+    {
+      "label": "Environment",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "community": 0,
+      "norm_label": "environment",
+      "id": "readme_environment"
+    },
+    {
+      "label": "Knowledge Workflow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "community": 0,
+      "norm_label": "knowledge workflow",
+      "id": "readme_knowledge_workflow"
+    },
+    {
+      "label": "Capture Template.md",
+      "file_type": "document",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "capture template.md",
+      "id": "templates_capture_template"
+    },
+    {
+      "label": "{{title}}",
+      "file_type": "document",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L10",
+      "community": 2,
+      "norm_label": "{{title}}",
+      "id": "templates_capture_template_title"
+    },
+    {
+      "label": "Raw",
+      "file_type": "document",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L12",
+      "community": 2,
+      "norm_label": "raw",
+      "id": "templates_capture_template_raw"
+    },
+    {
+      "label": "Next action",
+      "file_type": "document",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L16",
+      "community": 2,
+      "norm_label": "next action",
+      "id": "templates_capture_template_next_action"
+    },
+    {
+      "label": "MOC Template.md",
+      "file_type": "document",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "moc template.md",
+      "id": "templates_moc_template"
+    },
+    {
+      "label": "{{title}}",
+      "file_type": "document",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L9",
+      "community": 11,
+      "norm_label": "{{title}}",
+      "id": "templates_moc_template_title"
+    },
+    {
+      "label": "Start here",
+      "file_type": "document",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L11",
+      "community": 11,
+      "norm_label": "start here",
+      "id": "templates_moc_template_start_here"
+    },
+    {
+      "label": "Core pages",
+      "file_type": "document",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L13",
+      "community": 11,
+      "norm_label": "core pages",
+      "id": "templates_moc_template_core_pages"
+    },
+    {
+      "label": "Open questions",
+      "file_type": "document",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L17",
+      "community": 11,
+      "norm_label": "open questions",
+      "id": "templates_moc_template_open_questions"
+    },
+    {
+      "label": "Raw Source Template.md",
+      "file_type": "document",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "raw source template.md",
+      "id": "templates_raw_source_template"
+    },
+    {
+      "label": "{{title}}",
+      "file_type": "document",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L11",
+      "community": 12,
+      "norm_label": "{{title}}",
+      "id": "templates_raw_source_template_title"
+    },
+    {
+      "label": "Source",
+      "file_type": "document",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L13",
+      "community": 12,
+      "norm_label": "source",
+      "id": "templates_raw_source_template_source"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L15",
+      "community": 12,
+      "norm_label": "notes",
+      "id": "templates_raw_source_template_notes"
+    },
+    {
+      "label": "Extracted claims",
+      "file_type": "document",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L17",
+      "community": 12,
+      "norm_label": "extracted claims",
+      "id": "templates_raw_source_template_extracted_claims"
+    },
+    {
+      "label": "Wiki Page Template.md",
+      "file_type": "document",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "wiki page template.md",
+      "id": "templates_wiki_page_template"
+    },
+    {
+      "label": "{{title}}",
+      "file_type": "document",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L10",
+      "community": 8,
+      "norm_label": "{{title}}",
+      "id": "templates_wiki_page_template_title"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L12",
+      "community": 8,
+      "norm_label": "summary",
+      "id": "templates_wiki_page_template_summary"
+    },
+    {
+      "label": "Key points",
+      "file_type": "document",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L14",
+      "community": 8,
+      "norm_label": "key points",
+      "id": "templates_wiki_page_template_key_points"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L18",
+      "community": 8,
+      "norm_label": "related",
+      "id": "templates_wiki_page_template_related"
+    },
+    {
+      "label": "Sources",
+      "file_type": "document",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L22",
+      "community": 8,
+      "norm_label": "sources",
+      "id": "templates_wiki_page_template_sources"
+    },
+    {
+      "label": "Agents Protocol",
+      "file_type": "code",
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "agents protocol",
+      "id": "agents_agents"
+    },
+    {
+      "label": "Applications: \uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac",
+      "file_type": "concept",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "applications: \u1100\u1162\u110b\u1175\u11ab\u1100\u116a \u1110\u1175\u11b7\u110b\u1174 \u110c\u1175\u1109\u1175\u11a8 \u1100\u116a\u11ab\u1105\u1175",
+      "id": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "label": "LLM Wiki",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 3,
+      "norm_label": "llm wiki",
+      "id": "llm_wiki"
+    },
+    {
+      "label": "\uc9c0\uc2dd \ucef4\ud30c\uc77c",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "\u110c\u1175\u1109\u1175\u11a8 \u110f\u1165\u11b7\u1111\u1161\u110b\u1175\u11af",
+      "id": "knowledge_compilation"
+    },
+    {
+      "label": "AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601",
+      "file_type": "document",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 1,
+      "norm_label": "ai \u110b\u1166\u110b\u1175\u110c\u1165\u11ab\u1110\u1173 \u110c\u1175\u1109\u1175\u11a8 \u110b\u116e\u11ab\u110b\u1167\u11bc",
+      "id": "ai_agent_knowledge_operations"
+    },
+    {
+      "label": "Graphify",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "graphify",
+      "id": "graphify"
+    },
+    {
+      "label": "AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601",
+      "file_type": "concept",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "ai \u110b\u1166\u110b\u1175\u110c\u1165\u11ab\u1110\u1173 \u110c\u1175\u1109\u1175\u11a8 \u110b\u116e\u11ab\u110b\u1167\u11bc",
+      "id": "ai_agent_knowledge_operation"
+    },
+    {
+      "label": "Templates/Automation Intake",
+      "file_type": "document",
+      "source_file": "Templates/Automation Intake.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "templates/automation intake",
+      "id": "templates_automation_intake"
+    },
+    {
+      "label": "Templates/Daily Template",
+      "file_type": "document",
+      "source_file": "Templates/Daily Template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "templates/daily template",
+      "id": "templates_daily_template"
+    },
+    {
+      "label": "Templates/Note Template",
+      "file_type": "document",
+      "source_file": "Templates/Note Template.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 2,
+      "norm_label": "templates/note template",
+      "id": "templates_note_template"
+    },
+    {
+      "label": "\uc9c0\uc2dd \ucef4\ud30c\uc77c",
+      "file_type": "document",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd_\ucef4\ud30c\uc77c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "\u110c\u1175\u1109\u1175\u11a8 \u110f\u1165\u11b7\u1111\u1161\u110b\u1175\u11af",
+      "id": "agents_\uc9c0\uc2dd_\ucef4\ud30c\uc77c"
+    },
+    {
+      "label": "Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4",
+      "file_type": "document",
+      "source_file": "03-Wiki/Tools/Obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "obsidian \u110c\u1175\u1109\u1175\u11a8 \u110b\u1175\u11ab\u1110\u1165\u1111\u1166\u110b\u1175\u1109\u1173",
+      "id": "agents_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "label": "Obsidian",
+      "file_type": "rationale",
+      "source_file": "Automation/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "obsidian",
+      "id": "agents_obsidian"
+    },
+    {
+      "label": "LLM Wiki",
+      "file_type": "rationale",
+      "source_file": "03-Wiki/Tools/Obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "llm wiki",
+      "id": "agents_llm_wiki"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install_local_pull_service.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_install_local_pull_service",
+      "target": "users_che60_auser_obsidianvault_scripts_install_local_pull_service_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/notify_local_pull.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_notify_local_pull",
+      "target": "scripts_notify_local_pull_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/notify_server_pull.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_notify_server_pull",
+      "target": "scripts_notify_server_pull_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git",
+      "target": "scripts_pull_vault_git_git"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git",
+      "target": "scripts_pull_vault_git_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git",
+      "target": "scripts_pull_vault_git_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git_git",
+      "target": "scripts_pull_vault_git_run"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git_run",
+      "target": "scripts_pull_vault_git_py_completedprocess"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git_git",
+      "target": "scripts_pull_vault_git_py_completedprocess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/pull_vault_git.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_pull_vault_git_main",
+      "target": "scripts_pull_vault_git_git"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian",
+      "target": "scripts_save_to_obsidian_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian",
+      "target": "scripts_save_to_obsidian_run_vault_script"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian",
+      "target": "scripts_save_to_obsidian_slugify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian",
+      "target": "scripts_save_to_obsidian_stable_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian",
+      "target": "scripts_save_to_obsidian_truncate_title"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian",
+      "target": "scripts_save_to_obsidian_unique_path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian_main",
+      "target": "scripts_save_to_obsidian_slugify"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian_main",
+      "target": "scripts_save_to_obsidian_truncate_title"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian_main",
+      "target": "scripts_save_to_obsidian_stable_id"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian_main",
+      "target": "scripts_save_to_obsidian_unique_path"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian_unique_path",
+      "target": "path"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/save_to_obsidian.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_save_to_obsidian_main",
+      "target": "scripts_save_to_obsidian_run_vault_script"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server",
+      "target": "scripts_sync_local_to_server_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server",
+      "target": "scripts_sync_local_to_server_print_output"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server",
+      "target": "scripts_sync_local_to_server_require_success"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server",
+      "target": "scripts_sync_local_to_server_run_script"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server_main",
+      "target": "scripts_sync_local_to_server_run_script"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server_run_script",
+      "target": "scripts_sync_local_to_server_py_completedprocess"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server_print_output",
+      "target": "scripts_sync_local_to_server_py_completedprocess"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server_require_success",
+      "target": "scripts_sync_local_to_server_py_completedprocess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server_require_success",
+      "target": "scripts_sync_local_to_server_print_output"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_local_to_server.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_local_to_server_main",
+      "target": "scripts_sync_local_to_server_require_success"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git",
+      "target": "scripts_sync_vault_git_git"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git",
+      "target": "scripts_sync_vault_git_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git",
+      "target": "scripts_sync_vault_git_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git_git",
+      "target": "scripts_sync_vault_git_run"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git_run",
+      "target": "scripts_sync_vault_git_py_completedprocess"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git_git",
+      "target": "scripts_sync_vault_git_py_completedprocess"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_vault_git.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_vault_git_main",
+      "target": "scripts_sync_vault_git_git"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uac1c\uc778_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uacf5\ud1b5_\uc704\ud5d8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uad00\ub828"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\uae30\ub300_\uacb0\uacfc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Applications/\uac1c\uc778\uacfc \ud300\uc758 \uc9c0\uc2dd \uad00\ub9ac.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_\ud300_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "concepts_llm_wiki",
+      "target": "llm_wiki"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "llm_wiki",
+      "target": "concepts_llm_wiki_\uc815\uc758"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "llm_wiki",
+      "target": "concepts_llm_wiki_\ud575\uc2ec_\uacc4\uce35"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "llm_wiki",
+      "target": "concepts_llm_wiki_\uc6b4\uc601_\ub8e8\ud504"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "llm_wiki",
+      "target": "concepts_llm_wiki_rag\uc640\uc758_\uad00\uacc4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "llm_wiki",
+      "target": "concepts_llm_wiki_\uad00\ub828"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "llm_wiki",
+      "target": "concepts_llm_wiki_\ucd9c\ucc98"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c",
+      "target": "knowledge_compilation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "knowledge_compilation",
+      "target": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\uc815\uc758"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "knowledge_compilation",
+      "target": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\uc785\ub825\uacfc_\ucd9c\ub825"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "knowledge_compilation",
+      "target": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\ucef4\ud30c\uc77c_\uc6d0\uce59"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "knowledge_compilation",
+      "target": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\ud488\uc9c8_\uae30\uc900"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "knowledge_compilation",
+      "target": "concepts_\uc9c0\uc2dd_\ucef4\ud30c\uc77c_\uad00\ub828"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601",
+      "target": "ai_agent_knowledge_operations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\ubaa9\ud45c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\uc800\uc7a5\ud560_\uc9c0\uc2dd"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\ucc98\ub9ac_\ud750\ub984"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\uc6b4\uc601_\ud1b5\uc81c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "practices_ai_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uc6b4\uc601_\uad00\ub828"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_wiki_readme",
+      "target": "03_wiki_readme_03_wiki"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_graphify",
+      "target": "graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_\uc815\uc758"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_obsidian\uacfc\uc758_\uc5ed\ud560_\ubd84\ub2f4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_\uc8fc\uc694_\uacb0\uacfc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_\uc2e0\ub8b0_\uc218\uc900"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_\uc801\uc6a9_\ubc94\uc704"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_\uad00\ub828"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify",
+      "target": "tools_graphify_\ucd9c\ucc98"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "weight": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "weight": 1.0,
+      "source": "graphify",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "weight": 1.0,
+      "source": "knowledge_compilation",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "weight": 1.0,
+      "source": "llm_wiki",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uad00\ub828"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uc5ed\ud560"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uc774_vault\uc5d0\uc11c\uc758_\uc5ed\ud560"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\uc8fc\uc694_\uae30\ub2a5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "03-Wiki/Tools/Obsidian \uc9c0\uc2dd \uc778\ud130\ud398\uc774\uc2a4.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "tools_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4_\ud55c\uacc4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\ub3c4\uad6c"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc2dc\uc791\uc810"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc5f4\ub9b0_\uc9c8\ubb38"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc6d0\ubcf8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc_\uc801\uc6a9"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "ai_agent_knowledge_operation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/README.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "automation_readme_automation_contract"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/README.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "automation_readme_knowledge_compilation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/README.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "automation_readme_local_sync"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/README.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "automation_readme_server_capture"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "knowledge_compilation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "04-MOCs/LLM Wiki\uc640 \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uad00\ub9ac MOC.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "llm_wiki"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Automation Intake.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_automation_intake"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Capture Template.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_capture_template"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Daily Template.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_daily_template"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/MOC Template.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_moc_template"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Note Template.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_note_template"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Raw Source Template.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_raw_source_template"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Templates/Wiki Page Template.md",
+      "weight": 1.0,
+      "source": "04_mocs_llm_wiki\uc640_\uc5d0\uc774\uc804\ud2b8_\uc9c0\uc2dd_\uad00\ub9ac_moc",
+      "target": "templates_wiki_page_template"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "04-MOCs/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "04_mocs_readme",
+      "target": "04_mocs_readme_04_mocs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents",
+      "target": "agents_vault_agent_protocol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_vault_agent_protocol",
+      "target": "agents_folder_ownership"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_vault_agent_protocol",
+      "target": "agents_frontmatter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_vault_agent_protocol",
+      "target": "agents_llm_wiki_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_vault_agent_protocol",
+      "target": "agents_sync_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_vault_agent_protocol",
+      "target": "graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Automation/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "automation_readme",
+      "target": "automation_readme_automation_contract"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Automation/README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "automation_readme_automation_contract",
+      "target": "automation_readme_knowledge_compilation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Automation/README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "automation_readme_automation_contract",
+      "target": "automation_readme_local_sync"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Automation/README.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "automation_readme_automation_contract",
+      "target": "automation_readme_server_capture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_obsidian_vault"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.0,
+      "source": "agents_agents",
+      "target": "readme_obsidian_vault"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "weight": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "readme_bidirectional_flow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "readme_environment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "readme_knowledge_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "readme_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_obsidian_vault",
+      "target": "readme_sync_commands"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_capture_template",
+      "target": "templates_capture_template_title"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_capture_template_title",
+      "target": "templates_capture_template_next_action"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Capture Template.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_capture_template_title",
+      "target": "templates_capture_template_raw"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_moc_template",
+      "target": "templates_moc_template_title"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_moc_template_title",
+      "target": "templates_moc_template_core_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_moc_template_title",
+      "target": "templates_moc_template_open_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/MOC Template.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_moc_template_title",
+      "target": "templates_moc_template_start_here"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_raw_source_template",
+      "target": "templates_raw_source_template_title"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_raw_source_template_title",
+      "target": "templates_raw_source_template_extracted_claims"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_raw_source_template_title",
+      "target": "templates_raw_source_template_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Raw Source Template.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_raw_source_template_title",
+      "target": "templates_raw_source_template_source"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_wiki_page_template",
+      "target": "templates_wiki_page_template_title"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_wiki_page_template_title",
+      "target": "templates_wiki_page_template_key_points"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_wiki_page_template_title",
+      "target": "templates_wiki_page_template_related"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_wiki_page_template_title",
+      "target": "templates_wiki_page_template_sources"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Templates/Wiki Page Template.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_wiki_page_template_title",
+      "target": "templates_wiki_page_template_summary"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/README.md",
+      "weight": 1.0,
+      "source": "graphify",
+      "target": "applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac_applications_\uac1c\uc778\uacfc_\ud300\uc758_\uc9c0\uc2dd_\uad00\ub9ac"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "weight": 1.0,
+      "source": "llm_wiki",
+      "target": "ai_agent_knowledge_operations"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "weight": 1.0,
+      "source": "llm_wiki",
+      "target": "graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Concepts/LLM Wiki.md",
+      "weight": 1.0,
+      "source": "llm_wiki",
+      "target": "knowledge_compilation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd \ucef4\ud30c\uc77c.md",
+      "weight": 1.0,
+      "source": "knowledge_compilation",
+      "target": "ai_agent_knowledge_operations"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Graphify.md",
+      "weight": 1.0,
+      "source": "knowledge_compilation",
+      "target": "graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Practices/AI \uc5d0\uc774\uc804\ud2b8 \uc9c0\uc2dd \uc6b4\uc601.md",
+      "weight": 1.0,
+      "source": "ai_agent_knowledge_operations",
+      "target": "graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Automation/README.md",
+      "weight": 1.0,
+      "source": "agents_llm_wiki",
+      "target": "graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4.md",
+      "weight": 1.0,
+      "source": "agents_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "graphify"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Concepts/\uc9c0\uc2dd_\ucef4\ud30c\uc77c.md",
+      "weight": 1.0,
+      "source": "agents_\uc9c0\uc2dd_\ucef4\ud30c\uc77c",
+      "target": "agents_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "03-Wiki/Tools/Obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4.md",
+      "weight": 1.0,
+      "source": "agents_obsidian_\uc9c0\uc2dd_\uc778\ud130\ud398\uc774\uc2a4",
+      "target": "agents_obsidian"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Automation/README.md",
+      "weight": 1.0,
+      "source": "agents_obsidian",
+      "target": "agents_llm_wiki"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "6dbee21a03b4b235f052059d77c6245aa14a7b9b"
+}

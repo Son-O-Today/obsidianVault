@@ -1,18 +1,23 @@
 ---
-title: Andrej Karpathy LLM Wiki와 Graphify 활용
+title: LLM Wiki와 Graphify 웹 조사
 created: 2026-06-05T00:00:00Z
-kind: research
-source: web
-tags: [llm-wiki, obsidian, graphify, ai-agent, knowledge-management]
+source: web-research
+kind: raw
+status: reviewed
+tags: [source, llm-wiki, obsidian, graphify, ai-agent, knowledge-management]
+source_id: web-research-2026-06-05-llm-wiki-graphify
 ---
 
-# Andrej Karpathy LLM Wiki와 Graphify 활용
+# LLM Wiki와 Graphify 웹 조사
+
+> 이 문서는 2026-06-05에 수집·정리한 조사 기록이다. 이후 컴파일된 지식은
+> [[LLM Wiki]], [[Graphify]], [[Obsidian 지식 인터페이스]]에서 관리한다.
 
 ## 요약
 
 Andrej Karpathy의 LLM Wiki 패턴은 RAG처럼 질문 시점마다 원문 조각을 다시 찾는 방식이 아니라, 원천 자료를 미리 읽고 구조화된 Markdown wiki로 컴파일해 두는 접근이다. Obsidian은 사람이 읽고 탐색하는 IDE가 되고, LLM은 wiki를 쓰고 유지보수하는 프로그래머가 된다.
 
-Graphify는 이 wiki/문서/코드 저장소를 다시 knowledge graph로 바꾸는 계층이다. Obsidian의 `[[wikilink]]` 그래프는 사람이 보는 지식 연결망이고, Graphify의 `graph.json`, `GRAPH_REPORT.md`, query/path/explain 명령은 AI 에이전트가 쓰는 구조화된 탐색 계층에 가깝다.
+Graphify는 이 wiki/문서/코드 저장소를 다시 knowledge graph로 바꾸는 계층이다. Obsidian의 wikilink 그래프는 사람이 보는 지식 연결망이고, Graphify의 `graph.json`, `GRAPH_REPORT.md`, query/path/explain 명령은 AI 에이전트가 쓰는 구조화된 탐색 계층에 가깝다.
 
 현재 vault에는 `00-Inbox`, `02-Notes`, `Automation`, `Templates`, `scripts` 구조가 있으므로, `raw -> wiki -> graph -> agent context` 흐름을 얹기 좋다.
 
@@ -37,7 +42,7 @@ Graphify는 이 wiki/문서/코드 저장소를 다시 knowledge graph로 바꾸
 Obsidian은 이 시스템에서 저장소이자 시각화 계층이다.
 
 - Markdown 파일과 Git을 그대로 쓴다.
-- `[[wikilink]]`가 지식 그래프의 기본 edge가 된다.
+- Wikilink가 지식 그래프의 기본 edge가 된다.
 - Graph View는 hub, orphan, topic cluster를 사람이 빠르게 보는 도구다.
 - Dataview를 붙이면 frontmatter 기반 대시보드가 가능하다.
 - Web Clipper를 붙이면 웹 자료를 raw source로 빨리 수집할 수 있다.
@@ -238,5 +243,7 @@ source_id:
 
 ## 연결 노트
 
-- [[Automation/README]]
-- [[Obsidian setup]]
+- [[LLM Wiki와 에이전트 지식 관리 MOC]]
+- [[LLM Wiki]]
+- [[Graphify]]
+- [[Obsidian 지식 인터페이스]]
