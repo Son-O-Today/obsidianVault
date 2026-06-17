@@ -87,6 +87,7 @@ SDD를 강하게 적용할 작업:
 
 ## Related
 
+- [[OpenSpec과 Spec Kit]]
 - [[Agentic DevOps]]
 - [[AI-DLC]]
 - [[AI 에이전트 지식 운영]]
